@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/phone"
+        android:hint="Choose Active Agent &amp; Enter Telephone" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:layout_weight="0.83" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:text="Show Active Agents"
+        android:id="@+id/button5"
+        android:layout_weight="0.06" />
+
+</LinearLayout>

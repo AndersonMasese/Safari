@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/button0"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="SET AGENT GLOBAL VISIBILITY ON"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/buttonz"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="SET AGENT GLOBAL VISIBILITY OFF"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/telephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Client Telephone"
+
+
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:imeActionId="@+id/login"
+
+        android:imeOptions="actionUnspecified"
+
+
+        />
+
+
+
+    <Button
+        android:id="@+id/button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Send Deposit"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
